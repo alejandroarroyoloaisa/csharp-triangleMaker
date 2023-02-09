@@ -1,0 +1,10 @@
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\bin\Debug\2_Triángulo.exe.config
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\bin\Debug\2_Triángulo.exe
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\bin\Debug\2_Triángulo.pdb
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\2_Triángulo.csproj.AssemblyReference.cache
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\_2_Triángulo.mainWindow.resources
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\_2_Triángulo.Properties.Resources.resources
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\2_Triángulo.csproj.GenerateResource.cache
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\2_Triángulo.csproj.CoreCompileInputs.cache
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\2_Triángulo.exe
+D:\UNIVDEP\0_UNIVERSIDAD\5to CUATRIMESTRE\PROGRAMACIÓN ORIENTADA A EVENTOS\VisualStudio\2_Triángulo\obj\Debug\2_Triángulo.pdb
