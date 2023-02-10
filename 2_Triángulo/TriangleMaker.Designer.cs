@@ -52,6 +52,11 @@ namespace _2_Triángulo
             this.ayudaValorA = new System.Windows.Forms.ToolTip(this.components);
             this.ayudaValorB = new System.Windows.Forms.ToolTip(this.components);
             this.ayudaValorC = new System.Windows.Forms.ToolTip(this.components);
+            this.drawButton = new System.Windows.Forms.Button();
+            this.triangleViewer = new System.Windows.Forms.Panel();
+            this.triVieLabel = new System.Windows.Forms.Label();
+            this.fillButton = new System.Windows.Forms.Button();
+            this.triangleViewer.SuspendLayout();
             this.SuspendLayout();
             // 
             // msgLabel1
@@ -212,7 +217,7 @@ namespace _2_Triángulo
             // 
             // leaveButton
             // 
-            this.leaveButton.Location = new System.Drawing.Point(524, 558);
+            this.leaveButton.Location = new System.Drawing.Point(795, 558);
             this.leaveButton.Name = "leaveButton";
             this.leaveButton.Size = new System.Drawing.Size(75, 23);
             this.leaveButton.TabIndex = 16;
@@ -247,11 +252,52 @@ namespace _2_Triángulo
             this.ayudaValorC.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.ayudaValorC.ToolTipTitle = "Lado (c)";
             // 
+            // drawButton
+            // 
+            this.drawButton.Location = new System.Drawing.Point(706, 41);
+            this.drawButton.Name = "drawButton";
+            this.drawButton.Size = new System.Drawing.Size(75, 23);
+            this.drawButton.TabIndex = 18;
+            this.drawButton.Text = "Pintar";
+            this.drawButton.UseVisualStyleBackColor = true;
+            this.drawButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.drawButton_MouseClick);
+            // 
+            // triangleViewer
+            // 
+            this.triangleViewer.BackColor = System.Drawing.Color.White;
+            this.triangleViewer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.triangleViewer.Controls.Add(this.triVieLabel);
+            this.triangleViewer.Location = new System.Drawing.Point(568, 70);
+            this.triangleViewer.Name = "triangleViewer";
+            this.triangleViewer.Size = new System.Drawing.Size(302, 480);
+            this.triangleViewer.TabIndex = 19;
+            // 
+            // triVieLabel
+            // 
+            this.triVieLabel.AutoSize = true;
+            this.triVieLabel.Location = new System.Drawing.Point(50, 9);
+            this.triVieLabel.Name = "triVieLabel";
+            this.triVieLabel.Size = new System.Drawing.Size(0, 17);
+            this.triVieLabel.TabIndex = 0;
+            // 
+            // fillButton
+            // 
+            this.fillButton.Location = new System.Drawing.Point(795, 41);
+            this.fillButton.Name = "fillButton";
+            this.fillButton.Size = new System.Drawing.Size(75, 23);
+            this.fillButton.TabIndex = 1;
+            this.fillButton.Text = "Rellenar";
+            this.fillButton.UseVisualStyleBackColor = true;
+            this.fillButton.Click += new System.EventHandler(this.fillButton_Click);
+            // 
             // mainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(622, 593);
+            this.ClientSize = new System.Drawing.Size(912, 593);
+            this.Controls.Add(this.fillButton);
+            this.Controls.Add(this.triangleViewer);
+            this.Controls.Add(this.drawButton);
             this.Controls.Add(this.leaveButton);
             this.Controls.Add(this.checkBox);
             this.Controls.Add(this.msgLabel4);
@@ -272,11 +318,13 @@ namespace _2_Triángulo
             this.Controls.Add(this.groupData);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(640, 640);
-            this.MinimumSize = new System.Drawing.Size(640, 640);
+            this.MaximumSize = new System.Drawing.Size(930, 640);
+            this.MinimumSize = new System.Drawing.Size(930, 640);
             this.Name = "mainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Triangle Maker";
+            this.triangleViewer.ResumeLayout(false);
+            this.triangleViewer.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,6 +353,10 @@ namespace _2_Triángulo
         private System.Windows.Forms.ToolTip ayudaValorA;
         private System.Windows.Forms.ToolTip ayudaValorB;
         private System.Windows.Forms.ToolTip ayudaValorC;
+        private System.Windows.Forms.Button drawButton;
+        private System.Windows.Forms.Panel triangleViewer;
+        private System.Windows.Forms.Label triVieLabel;
+        private System.Windows.Forms.Button fillButton;
     }
 }
 
